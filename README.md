@@ -1,6 +1,9 @@
 # @threvo/website-understanding-sdk
+### A Universal Website Perception Layer for Agents
 
-A semantic website understanding SDK that performs perception of web pages, designed as a lightweight "website perception layer" for agents.
+Modern AI agents can think, plan, and reason —  
+**but they cannot understand websites.**
+
 
 ## What This SDK Does
 
@@ -12,6 +15,8 @@ This SDK analyzes web pages and extracts structured, machine-readable JSON descr
 - **Metadata** (title, description, URL)
 
 Perfect for building agents that need to understand and interact with web pages programmatically.
+
+> **🧠 Think of this as the “eyes” and “spatial map” of your AI agent.**
 
 ## Installation
 
