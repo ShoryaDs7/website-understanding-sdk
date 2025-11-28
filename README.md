@@ -226,6 +226,6 @@ README.md
 ```
 ## 🧩License
 
-MIT
+MIT © Threvo
 
 
