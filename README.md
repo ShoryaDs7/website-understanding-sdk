@@ -1,4 +1,4 @@
-# @threvo/website-understanding-sdk
+# 🚀@threvo/website-understanding-sdk
 ### A Universal Website Perception Layer for Agents
 
 Modern AI agents can think, plan, and reason —  
@@ -24,7 +24,7 @@ Perfect for building agents that need to understand and interact with web pages 
 npm install
 ```
 
-## Usage
+## 🧩Usage
 
 ### Basic Usage
 
@@ -39,7 +39,7 @@ const html = '<html>...</html>';
 const result = await analyzePage(html);
 ```
 
-### Dynamic Mode (CSR / React / SPA Support)
+### 🧩Dynamic Mode (CSR / React / SPA Support)
 
 For JavaScript-rendered websites (React, Next.js, Vue, SPAs), use dynamic mode:
 
@@ -50,7 +50,7 @@ import { analyzePage } from '@threvo/website-understanding-sdk';
 const result = await analyzePage("https://myntra.com", { dynamic: true });
 ```
 
-**Notes:**
+**⭐Notes:**
 - Slower than SSR mode (requires browser rendering)
 - Works on JS-rendered websites
 - No interactions (only DOM snapshot)
@@ -109,7 +109,7 @@ const result = await analyzePage("https://myntra.com", { dynamic: true });
 }
 ```
 
-## Page Type Detection
+## 🧩Page Type Detection
 
 The SDK uses heuristics to detect page types:
 
@@ -121,7 +121,7 @@ The SDK uses heuristics to detect page types:
 - **Home**: Hero sections with navigation
 - **Unknown**: Fallback when no patterns match
 
-## Section Detection
+## 🧩Section Detection
 
 Identifies major layout areas:
 - Navigation bars
@@ -132,7 +132,7 @@ Identifies major layout areas:
 - Forms
 - Main content areas
 
-## Element Extraction
+## 🧩Element Extraction
 
 Extracts CSS selectors for:
 - **Inputs**: All form input elements
@@ -140,7 +140,7 @@ Extracts CSS selectors for:
 - **Links**: All anchor tags with href attributes
 - **Images**: All image elements
 
-## Demo
+## 🧩Demo
 
 Run the demo server:
 
@@ -156,7 +156,7 @@ The demo provides:
 - Real-time page analysis
 - Pretty-printed JSON output
 
-## API Endpoint
+## 🧩API Endpoint
 
 The demo server exposes an API endpoint:
 
@@ -170,7 +170,7 @@ GET /api/analyze?url=<your-url>&dynamic=true
 
 Returns the analysis result as JSON.
 
-## Modes
+## 🧩Modes
 
 ### SSR Mode (Default)
 - Fast and lightweight
@@ -184,7 +184,7 @@ Returns the analysis result as JSON.
 - Slower but more comprehensive
 - Automatically falls back to SSR mode on errors
 
-## Limitations
+## 🧩Limitations
 
 - **Heuristic-Based**: Page type detection uses simple heuristics and may not be 100% accurate for all websites.
 
@@ -192,7 +192,7 @@ Returns the analysis result as JSON.
 
 - **Dynamic Mode**: Only performs one-shot rendering. No interactions, clicks, or multi-step browsing.
 
-## Roadmap for V2
+## 🚀Roadmap for V2
 
 - [x] **Playwright Integration**: Full JavaScript execution support for SPAs
 - [ ] **Machine Learning**: ML-based page type classification
@@ -205,7 +205,7 @@ Returns the analysis result as JSON.
 - [ ] **Link Analysis**: Internal vs external link classification
 - [ ] **Image Analysis**: Alt text and image context extraction
 
-## Project Structure
+## 🧩Project Structure
 
 ```
 /src
@@ -224,8 +224,8 @@ Returns the analysis result as JSON.
 package.json
 README.md
 ```
-
-## License
+## 🧩License
 
 MIT
+
 
